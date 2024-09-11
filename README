@@ -1,0 +1,23 @@
+poll4input
+==========
+poll files for input
+
+
+Installation
+------------
+Edit config.mk to match your local setup (poll4input is installed into
+the /usr/local namespace by default).
+
+Afterwards enter the following command to build and install poll4input (if
+necessary as root):
+
+    make clean install
+
+
+Running poll4input
+------------------
+Provide paths to file(s) for polling:
+
+	poll4input file [file]...
+
+It will exit when one of the file provides input or all files are closed
